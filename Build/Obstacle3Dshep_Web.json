@@ -1,0 +1,17 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Obstacle3Dshep",
+"productVersion": "0.1",
+"dataUrl": "Obstacle3Dshep_Web.data.unityweb",
+"wasmCodeUrl": "Obstacle3Dshep_Web.wasm.code.unityweb",
+"wasmFrameworkUrl": "Obstacle3Dshep_Web.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "Obstacle3Dshep_Web.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.4.5f1"
+}
