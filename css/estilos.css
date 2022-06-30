@@ -1,0 +1,27 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {font-family: arial; padding:1%; margin:0.5%; font-size: 22px;}
+body {font-family: 'Montserrat', sans-serif; background: #fefefe;}
+.wraper {width: 90%; margin: auto; border:5px solid black; border-radius:20px; background-color: #959595;  box-shadow: 1px 1px 34px rgba(0,0,0, 0.75);}
+
+.display, .scores, .controls {width: 85%;margin:auto;text-align: center; box-sizing:border-box;}
+.reels {width: 25%;border-radius: 15px;border:3px solid #f0c020;display: inline-block;background-color:#ffffff; padding:1px;}
+#fig{width: 97%;}
+.scores {background-color: #a0c0f0;padding-bottom:20px;}
+.controls {background-color: #a0c0f0;padding:5px;box-sizing:border-box;}
+input[type=text] {width: 120px; text-align: center; border:3px solid #111188}
+select, option {border: 3px solid #111188;}
+#spin{height:65px; font-size: 26px; background-color: #991111; color:#f0d030; border:3px solid #440000; border-radius:10px; box-shadow: 1px 1px 34px rgba(0, 0, 0, 0.5);}
+#cantidad:hover, select:hover, option:hover{background-color: #ababab; color: #ffff11; border: 3px solid #cdcdcd;}
+#spin:hover{background-color: #f0c020;color: #440000;}
+label {display:inline-block;width: 70px; color:#ffffff;}
+.paytable {width: 90%;border-radius: 15px;border:3px solid #f0d030; margin:auto; padding: 5px; background-color: #ffffff; text-align: center;}
+.paytable img {width: 17.5%;margin: 5px;float: left;}
+.paytable span {line-height: 85px;}
+div.columnas {width: 45%;display: inline-block;vertical-align: top;}
+div#wild {width: 45%;margin-left:20%; text-align: left;}
+.scores span {color: #f0c020;} 
+
+
+@media only screen and (min-width: 1280px) and (max-width:5360px){
+    .wraper {width:50%;}
+}
